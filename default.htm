@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Resume</title>
+    
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+     <script src="libs/jquery-2.1.3.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+</head>
+<body>
+    <nav class="navbar navbar-default no-margin">
+    <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header fixed-brand">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  id="menu-toggle">
+                      <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><i class="fa fa-rocket fa-4"></i>Anand Kumar Tiwari</a>
+                </div><!-- navbar-header-->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active" ><button class="navbar-toggle collapse in" data-toggle="collapse" id="menu-toggle-2"> <span class="glyphicon glyphicon-th-large" aria-hidden="true"></span></button></li>
+                            </ul>
+                </div><!-- bs-example-navbar-collapse-1 -->
+    </nav>
+    <div id="wrapper">
+        
+    <!------- Sidebar-------------------> 
+<!--        class="active"-->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+                <li value="1">
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-dashboard fa-stack-1x "></i></span> Personal Info</a>
+                </li>
+                <li value="2">
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-flag fa-stack-1x "></i></span> Education</a>
+                </li>
+                <li value="3">
+                    <a href="#"><span class="fa-stack fa-lg pull-left"><i class="fa fa-cloud-download fa-stack-1x "></i></span>Technical Skills</a>
+                </li>
+                <li value="4">
+                    <a href="#"> <span class="fa-stack fa-lg pull-left"><i class="fa fa-server fa-stack-1x "></i></span>Project and Work</a>
+                </li>
+            </ul>
+        </div><!-- /#sidebar-wrapper -->
+        
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid fix_min_width">
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+<!------------- Personal Detail section --------------->
+                        <div class="section1 block">
+                                <table class="table">
+                                    <tbody>
+                                        <tr class="active">
+                                            <td>1</td>
+                                            <td>Address</td>
+                                            <td>Ranchi Jharkhand</td>
+                                        </tr>
+                                        <tr class="success">
+                                            <td>2</td>
+                                            <td>Contact</td>
+                                            <td>8797948595</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>3</td>
+                                            <td>Email</td>
+                                            <td>anandtiwari192@gmail.com</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>4</td>
+                                            <td>College</td>
+                                            <td>National Institute of Technology Durgapur</td>
+                                        </tr>
+                                        <tr class="danger">
+                                            <td>5</td>
+                                            <td>Date of Birth</td>
+                                            <td>07/05/1993</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                        
+<!--------- Education Detail Section ---------------------->
+                        <div class="section2 block">
+                            <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Examination Name</th>
+                                            <th>Board/University</th>
+                                            <th>year of passing</th>
+                                            <th>marks</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="active">
+                                            <td>10th</td>
+                                            <td>Jharkhand Academic council</td>
+                                            <td>2008</td>
+                                            <td>79%</td>
+                                        </tr>
+                                        <tr class="success">
+                                            <td>12th</td>
+                                            <td>Jharkhand Academic council</td>
+                                            <td>2010</td>
+                                            <td>66%</td>
+                                        </tr>
+                                        <tr class="info">
+                                            <td>Bsc(it)</td>
+                                            <td>Ranchi University</td>
+                                            <td>2013</td>
+                                            <td>75%</td>
+                                        </tr>
+                                        <tr class="warning">
+                                            <td>Mca</td>
+                                            <td>Nit Durgapur</td>
+                                            <td>2016</td>
+                                            <td>76.6 cgpa</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                        </div>
+                        
+<!----------  Technical Skills Section ------------------->
+                        <div class="section3 block">
+                                <ul id="menu-mainnav " class="navbar nav-tabs nav well">
+                                <li value="Language"><a href="#">Language</a>
+                                    <ul class="sub-menu Language">
+                                        <li><a href="#">Java</a></li>
+                                        <li><a href="#">Python</a></li>
+                                        <li><a href="#">c</a></li>
+                                    </ul>
+                                </li>
+                                <li value="Front-end"><a href="#">Front-end</a>
+                                    <ul class="sub-menu Front-end">
+                                        <li><a href="#">Anagularjs</a></li>
+                                        <li><a href="#">JQuery</a></li>
+                                        <li><a href="#">Bootstrap</a></li>
+                                        <li><a href="#">javaScript</a></li>
+                                        <li><a href="#">html</a></li>
+                                        <li><a href="#">css</a></li>
+                                    </ul>
+                                </li>
+                                <li value="Back-end"><a href="#">Back-end</a>
+                                    <ul class="sub-menu Back-end">
+                                        <li><a href="#">Java</a></li>
+                                        <li><a href="#">Python</a></li>
+                                        <li><a href="#">Django</a></li>
+                                    </ul>
+                               </li>
+                               <li value="Databse"><a href="#">Database</a>
+                                    <ul class="sub-menu Database">
+                                        <li><a href="#">Oracle</a></li>
+                                        <li><a href="#">Sqlite</a></li>
+                                    </ul>
+                               </li>
+                                <li value="Query"><a href="#">Query</a>
+                                    <ul class="sub-menu Query">
+                                        <li><a href="#">sql</a></li>
+                                        <li><a href="#">Sqlite</a></li>
+                                    </ul>
+                               </li>
+                                <li value="Concept"><a href="#">Concept</a>
+                                    <ul class="sub-menu Concept">
+                                        <li><a href="#">Data-Structure</a></li>
+                                    </ul>
+                               </li>
+                                <li value="Others"><a href="#">Others</a>
+                                    <ul class="sub-menu Others">
+                                        <li><a href="#">Github</a></li>
+                                        <li><a href="#">Ajax</a></li>
+                                        <li><a href="#">json</a></li>
+                                    </ul>
+                               </li>
+                            </ul>          
+                            
+                            <h3 class="option_header">
+                                <p>Area Of Interest</p>
+                                <h4 class="options">
+                                    1. Competitve Coding<br>
+                                    2. Application Developement using Angularjs, Django<br>
+                                    3. Java Based Application<br>
+                                </h4>
+                            </h3>
+                        </div>
+<!--------------- Project & work section ----------------->
+                        <div class="section4 block">
+                            <ul style="margin-top: 10px;">
+                                <li class="title">JOb Search Portal</li>
+                                <li class="field">
+                                    <span>
+                                        using Python Django and Angularjs create a job search portal , sqlite database is used for storing the data . <br>
+                                        Job search according to the location location, type , salary etc .
+                                        Angularjs is JavaScript framwork , angular-Material used for making responsive page.
+                                    </span>
+                                </li>
+
+                                <li class="title">car recomendation system</li>
+                                <li class="field">
+                                    <span>
+                                        Recommed car to the user on the basis of user requirement .<br>
+                                        technology used :-<br>
+                                         Angularjs <br>
+                                         Python/Django <br>
+                                         Html CSS <br>
+                                         Database Sqlite <br>
+                                    </span></li>
+
+                                <li class="title">Employee tracking </li>
+                                <li class="field"> <span>
+                                    which project is assigned to which employee<br> status of project <br> room booking for meetings <br>Inventory management 
+                                   </span> </li>
+                                <li class="title"> Worked on HashedIn Websites </li>
+                                <li class="field"> <span>
+                                    Design Car page of hashedin website .<br>
+                                    technology <br>
+                                    bootstrap <br> jquery <br> and intergrate it with the sqlite database using Django model. 
+                                    </span> </li>
+                                
+                                <li class="title">Twitter using Python Django </li>
+                                <li class="field"> <span>
+                                    using Bootstrap create a sample twitter page for <br> posting tweets,<br> storing tweets into Django model sqlite database.
+                                    </span> </li>
+                                
+                                <li class="title"> Twitter tweets analysis using mongoDB python </li>
+                                <li class="field"> <span> Get tweets from twitter and store them into mongodb model and <br> analysis the data on the basis of location, day, dates </span> </li>
+                                
+                                <li class="title">MCQ Game Application using java</li>
+                                <li class="field"><span>
+                                    MCQ game application using core java spring and oracle 10g . 
+                                    </span> </li>
+                                
+                                <li class="title">Active coder on several coding platform </li>
+                                <li class="field"><span>
+                                    HackerRank<br>
+                                    Codechef<br>
+                                    </span> 
+                                </li>      
+                            </ul>
+                        </div>                    
+<!------------------------------------------------------>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+   
+    <script src="js/sidebar_menu.js"></script>
+</body>
+</html>
