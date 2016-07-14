@@ -1,14 +1,12 @@
 # Resume
 
-
-clone repository 
-open it with editors 
-i used brackets 
-
-how to use ..
-
+To run the app -
+go to setting -
+GitHub Pages
+ Your site is published at https://anand-tiwari.github.io/Resume/
+ open the link 
+ 
 page is divided into two part 
-
 left part contains options 
 right part is displaying on the basis of left part selection   
 
