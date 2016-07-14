@@ -65,7 +65,7 @@ $(".sub-menu").hide();
      $('li.field').slideUp(200);
     $('ul').on('click','li.title', function(e){
        $(this).next().siblings('li.field').slideUp(200); 
-       $(this).next().slideDown(200);
+       $(this).next().slideToggle(200);
     });
 
     $( '.dropdown' ).hover(
